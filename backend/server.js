@@ -17,7 +17,7 @@ app.use(bodyParser.json());
 const db = mysql.createConnection({
   host: "localhost",
   user: "root",        
-  password: "",  //Enter the password of your database of MySQL        
+  password: "<Enter MySQL Password here>",  //Enter the password of your database of MySQL        
   database: "Forever",  
 });
 
@@ -173,3 +173,4 @@ app.post("/cart/decrease", (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
 });
+
