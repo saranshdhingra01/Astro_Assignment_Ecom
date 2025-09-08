@@ -1,0 +1,55 @@
+.navbar{
+display:flex;
+}
+
+.nav-logo{
+color:rgba(58, 5, 5, 0.828);
+font-size:30px;
+font-weight:600;
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+    color: #626262;
+    font-size:20px;
+    font-weight:500;
+}
+
+li,.nav-menu{
+margin-left:75px;
+}
+
+.nav-menu hr{
+    border: none;
+    width: 80%;
+    height: 3px;
+    border-radius: 10px;
+    background: #454545;
+    cursor:pointer;
+}
+
+.nav-login-cart{
+display:flex;
+flex-direction:row;
+justify-content:space-around;
+}
+
+.nav-login-cart button{
+width:157px;
+margin-left:52px;
+height:58px;
+outline:none;
+border: 2px solid #7a7a7a;
+border-radius: 75px;
+color: #515151;
+font-size: 18px;
+font-weight: 500;
+background: white;
+cursor: pointer;
+}
+
+
+
